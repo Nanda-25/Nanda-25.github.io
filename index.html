@@ -14,65 +14,55 @@
 
 	<body>
         <header>
-		<a href= "index.html"> <img src="index.html"alt="logo"/> </a>
-						
-			<div class="icon-reddit">
-				<svg>
-					<a href="https://github.com/Nanda-25/Nanda-25.github.io"><use xlink:href="si.svg#github"></use></a>
-				</svg>
-			</div>
-            
-            <div class="icon-reddit">
-				<svg>
-					<a href="https://www.linkedin.com/in/feromano/"><use xlink:href="si.svg#linkedin"></use></a>
-				</svg>
-			</div>
-
-			<nav hole="navigation" aria-label="main menu">
+		<div id="logo-container">
+		<a href= "index.html"> <img src="images/logof.png"alt="logo"/> </a>
+		</div>
+		<div id="right-hand-nav">
+			<section class="social-media" >
+				<a href="https://github.com/Nanda-25/Nanda-25.github.io"><img src="github-icon.png"></a>
+				<a href="https://www.linkedin.com/in/feromano/"><img src="linkedin-icon.png"></a>
+			</section>
+			<nav hole="navigation" aria-label="main menu" class="menu">
             	<a href="thisisme.html" class="selected">This is me</a>
 		        <a href="portfolio.html" class="selected">Portfolio</a>
             	<a href="contact.html" class="selected">Contact</a>
         	</nav>
+		</div>
     	</header>
 
 		<main>
 			<section>
-
 				<div id="hero-section">
 		        	<img src ="Images/photo_fe(2)3.jpg" class=photo-fe alt="Fernanda's photo"/>
-					<h1 id="hero">
-					<p id="header-text">Diving into the TECH world.</p>
+				<section id="hero-text">
+					<h1>
+					<p id="hero-title">Diving into the TECH world.</p>
 					</h1>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus veniam facere sint voluptatum, iste, atque enim aliquid, nam deserunt impedit. Vel facilis harum, obcaecati tenetur molestias aut quis odio.</p>
 					<button type="submit">More about me</button>
+				</section>
 				</div>
-
 			</section>
-			<section>   
-
-				<box>
-					<h2>Expertise</h2>
-				</box>
-
-				<div class="column">
+					<h2 class="subheading">Expertise</h2>
+				<div class="card">
 					<h2>Html</h2>
             		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, aut? Aut voluptates architecto ut impedit facere, atque fuga sapiente recusandae aperiam vero aliquid tempora beatae asperiores ad similique iste eos?</p>
-					<button type="submit" class="column-button">More</button>
+					<button type="submit" class="card-button">More</button>
         		</div>
 
-				<div class="column">
+				<div class="card">
 					<h2>Agile</h2>
             		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo itaque laudantium, ad minima excepturi ducimus consequatur odit modi! Iste assumenda dolorum recusandae doloremque nesciunt dolorem iusto cupiditate quia. Quidem, maiores.</p>
-					<button type="submit" class="column-button">More</button>
+					<button type="submit" class="card-button">More</button>
         		</div>
 
-				<div class="column">
+				<div class="card">
 					<h2>Change Management</h2>
             		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorum reprehenderit similique consectetur accusamus sit culpa cupiditate fuga quidem, recusandae necessitatibus at porro deserunt voluptate, nisi impedit aliquam dolores esse. </p>
-					<button type="submit" class="column-button">More</button>
+					<button type="submit" class="card-button">More</button>
         		</div>
-			</section>
     	</main>
+
 		<footer id="footer-text">
 			ⓒ FMR 2022
 		</footer>
