@@ -1,3 +1,7 @@
+/* *{ 
+	border: 1px solid grey;
+} */
+
 html{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -8,10 +12,6 @@ h1 {
 	font-family: "Amatic SC";
 	font-size: 3rem;
 	margin: 0;
-}
-
-h2 {
-	margin:0;
 }
 
 h2, button, nav, footer {
@@ -33,6 +33,9 @@ header {
 	padding: 10px;
 	display:flex;
 	justify-content: space-between;
+	border: 1px solid #404040;
+	border-radius: 15px;
+	margin-bottom: 20px;
 }
 
 header img {
@@ -51,67 +54,16 @@ button {
 	padding: 10px;
 	width: 100px;
 	display: block;
-    border: 1px solid #fae5de;
+    border: 1px solid #fcc2ad;
 	border-radius: 25px;
-	background-color: #fae5de;
+	background-color: #fcc2ad;
 	font-size: 0.9rem;
 }
-
-/*CLASS----------------------------------------------------------------------------*/
 
 .selected {
 	font-weight: bold;
 	color: #404040;
 }
-
-.form-container {
-	border: 1px solid #fae5de;
-	padding: 20px;
-	border-radius: 15px;
-	margin-top: 40px;
-}
-
-.form-item {
-	
-
-/* .subheading {
-	font-size: 2.5rem;
-	display: flex;
-	justify-content: center;
-} */
-
-/* #expertise-section .subheading{
-	background-color: #fcc2ad;
-	display:inline-block;
-	margin-left: 40px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-radius: 15px;
-}
-
-.card-container {
-	display:flex;
-	align-items: stretch;
-} */
-
-/* .subheading-container {
-	margin-top: -50px;
-} */
-
-/* .card {
-	width: 29%;
-	padding: 2%;
-	border-radius: 15px;
-	background-color: #fae5de;
-	display: flex;
-	flex-direction: column;
-	margin: 20px
-} */
-
-/* .card-button {
-	background-color: transparent;
-	margin-top: auto;
-} */
 
 .social-media {
 	display: flex;	
@@ -125,45 +77,82 @@ button {
 	margin-right: 10px;
 }
 
-/*ID------------------------------------------------------------------------------*/
-
-#hero-text {
-	display: flex;
-	flex-direction: column;
-}
-
 #right-hand-nav {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
-
-#hero-title {
-	width: 60%;
-    display: inline;
-}
-
-#hero-section {
+/* --------------- */
+/* #hero-section {
     background-color:#fae5de;
-    height: 300px;
+    height: 40px;
 	padding: 2%;
     vertical-align: middle;
 	border-radius: 15px;
+	display: inline-block;
+} */
+
+.form-container {
+	/* background-color:#fae5de; */
+    height: 500px;
+	padding: 2%;
+    vertical-align: middle;
+	border: 1px solid #404040;
+	border-radius: 15px;
 	display: flex;
+	justify-content: center;
 }
 
-/* #expertise-section {
-	border: 1px solid rgb(64, 64, 64);
-	padding: 20px;
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid;
 	border-radius: 15px;
-	margin-top: 40px;
-} */
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 1px solid #404040;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 1px solid #404040;
+    background-color: #fae5de;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #Fff;
+    background-color:#404040;
+    color: #fae5de;
+}
+
+.form-item button {
+    width: 100px;
+}
 
 #footer-text {
     text-align: center;
     vertical-align: middle;
 	margin-top: 20px;
 }
-
-/* Dúvidas-------------------------------
-
