@@ -1,0 +1,125 @@
+/*{ 
+	border: 1px solid grey;
+}*/
+
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(64.64.64)
+    }
+
+h1 {
+	font-family: "Amatic SC";
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+h2, button, nav, footer {
+	font-family: "Amatic SC";
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav {
+	background-color: #fcc2ad;
+	display: flex;
+	justify-content:flex-end ;
+	font-size: 24px;
+}
+
+header {
+	height: 100px;
+}
+
+header img {
+	display: left;
+    height: 150px;
+	margin: 0px;
+}
+
+body {
+    background-color: #fcc2ad;
+    width: 100%;
+	margin: 0;
+}
+
+button {
+	padding: 10px;
+	width: 100px;
+	display: block;
+    border: 1px solid #fcc2ad;
+	border-radius: 25px;
+	background-color: #fcc2ad;
+	font-size: 0.9rem;
+}
+
+/*CLASS----------------------------------------------------------------------------*/
+
+.selected {
+	font-weight: bold;
+	color: black;
+}
+
+.column {
+	width: 29%;
+	height: 250px;
+	padding: 2%;
+	display: inline-block; 
+    vertical-align: middle;
+	border-radius: 15px;
+	background-color: #fae5de;
+}
+
+.column-button {
+	background-color: transparent
+}
+
+.photo-fe {
+	height: 300px;
+	display: inline;
+	float:left;
+	vertical-align:middle;
+	border-radius: 50px;
+	}
+
+.icon-reddit {
+	display: inline-block;
+	fill: #fae5de;
+    align-content: flex-start;
+	
+}
+
+/*ID------------------------------------------------------------------------------*/
+
+#hero {
+	height: 1vh;
+	padding: 1px;
+	display: inline;
+	/*background-color: #fae5de;*/
+}
+
+#header-text {
+	width: 60%;
+    display: inline;
+	}
+
+#hero-section {
+    background-color:#fae5de;
+    height: 300px;
+	padding: 2%;
+    vertical-align: middle;
+	border-radius: 15px;
+	float:right;
+	display: block;
+	}
+
+#footer-text {
+    text-align: center;
+    vertical-align: middle
+}
+
+/* Dúvidas-------------------------------
+
