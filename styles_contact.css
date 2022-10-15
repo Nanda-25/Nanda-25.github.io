@@ -72,7 +72,13 @@ button {
 }
 
 .form-item {
+<<<<<<< Updated upstream
 	
+=======
+	display: flex;
+	align-items: center;
+}
+>>>>>>> Stashed changes
 
 /* .subheading {
 	font-size: 2.5rem;
@@ -87,6 +93,7 @@ button {
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 15px;
+<<<<<<< Updated upstream
 }
 
 .card-container {
@@ -118,6 +125,39 @@ button {
 	justify-content: flex-end;
 }
 
+=======
+}
+
+.card-container {
+	display:flex;
+	align-items: stretch;
+} */
+
+/* .subheading-container {
+	margin-top: -50px;
+} */
+
+/* .card {
+	width: 29%;
+	padding: 2%;
+	border-radius: 15px;
+	background-color: #fae5de;
+	display: flex;
+	flex-direction: column;
+	margin: 20px
+} */
+
+/* .card-button {
+	background-color: transparent;
+	margin-top: auto;
+} */
+
+.social-media {
+	display: flex;	
+	justify-content: flex-end;
+}
+
+>>>>>>> Stashed changes
 .social-media img {
 	border-radius: 15px;
 	height: 50px;
