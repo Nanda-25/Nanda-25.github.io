@@ -113,6 +113,7 @@ button {
 .card-button {
 	background-color: transparent;
 	margin-top: auto;
+	justify-items: flex-end;
 }
 
 .photo-fe {
